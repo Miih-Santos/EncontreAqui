@@ -1,0 +1,26 @@
+{
+  "name": "encontreaqui",
+  "version": "1.0.0",
+  "description": "Achados e perdidos em formato de app Android",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "icones": "capacitor-assets generate --android",
+    "android": "vite build && cap sync android && cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/camera": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/ios": "^8.6.2",
+    "@capacitor/splash-screen": "latest",
+    "@fontsource-variable/montserrat": "^5.1.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "latest",
+    "@capacitor/cli": "latest",
+    "vite": "^6.2.7"
+  }
+}

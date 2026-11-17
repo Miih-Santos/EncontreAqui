@@ -1,0 +1,17 @@
+{
+  "appId": "com.etec.encontreaqui",
+  "appName": "EncontreAqui",
+  "webDir": "dist",
+  "android": {
+    "backgroundColor": "#ffffff"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "launchAutoHide": true,
+      "backgroundColor": "#ffffff",
+      "showSpinner": false,
+      "androidScaleType": "CENTER_INSIDE"
+    }
+  }
+}

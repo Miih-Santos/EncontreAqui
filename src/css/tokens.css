@@ -1,0 +1,14 @@
+:root {
+    --preto: #000;
+    --branco: #fff;
+    --bg: #f1f1f1;
+    --linha: #d9d9d9;
+    --cinza: #e6e6e6;
+    --tinta-2: #5c5c5c;
+    --r: 16px;
+    --s1: .5rem;
+    --s2: 1rem;
+    --s3: 1.5rem;
+    --nav: 68px;
+    --fonte: 'Montserrat Variable', 'Montserrat', system-ui, sans-serif
+}
